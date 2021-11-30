@@ -6,7 +6,7 @@ function descendingOrder (value) {
             if (value[i] < value[i + 1]) {
                 const buff = value[i];
                 value[i] = value[i + 1];
-                value[i + 1] = buff;
+             value[i + 1] = buff;
         }
     }
 }
