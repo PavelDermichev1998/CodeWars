@@ -10,6 +10,7 @@ function descendingOrder (value) {
         }
     }
 }
+    
 value = Number(value.join(""));
 return (value);
 }
