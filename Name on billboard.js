@@ -3,5 +3,6 @@ function billboard(name, price = 30){
   for (let i =0; i<name.length;i++){
     count+=price
   }
+  
   return count
 } 
