@@ -6,5 +6,6 @@ function rentalCarCost(d) {
   if (d>=3 && d<7){
     cost = cost - 20
   }
+  
   return cost
 }
