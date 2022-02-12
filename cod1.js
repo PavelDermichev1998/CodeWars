@@ -5,8 +5,6 @@ if (input == null || input.length < 1){
 }
 
 var newArray = [0, 0];
-
-
 for (var i = 0; i < input.length; i++){
 
   if (input[i] > 0)
