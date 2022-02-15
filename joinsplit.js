@@ -4,6 +4,7 @@ function correct(string) {
     if (arr[i] === '5') {
       arr[i] = 'S'
     }
+    
     if (arr[i] === '0') {
       arr[i] = 'O'
     }
