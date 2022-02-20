@@ -10,5 +10,6 @@ function peopleWithAgeDrink(old) {
   }
     if(old >= 21){
        return 'drink whisky'
+       
   }
 };
