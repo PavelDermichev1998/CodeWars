@@ -3,6 +3,5 @@ function sumCubes(n){
   for (let i = 0; i <= n; i++){
     count+=i**3
   }
-  
   return count
 }
