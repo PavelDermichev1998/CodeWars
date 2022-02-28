@@ -8,7 +8,6 @@ function squareDigits(num){
     index = realDigits[i] * realDigits[i];
     sum +=String(index);     
    }
-   
         let number = Number(sum);
         return number;
   }
