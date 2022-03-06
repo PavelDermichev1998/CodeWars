@@ -3,5 +3,6 @@ var summation = function (num) {
   for (let i = 0; i <= num; i++){
     sum+=i
   }
+  
   return sum
 }
