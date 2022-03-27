@@ -1,5 +1,4 @@
 function solution(number) {
-  
   if(number < 1) { return "";}
   if(number >= 1000) { return "M" + solution(number - 1000);}
   if(number >= 900) { return "CM" + solution(number - 900);}
