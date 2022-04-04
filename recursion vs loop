@@ -1,0 +1,4 @@
+function sum (num:number) {
+    if(num === 1 ) return num
+    return num + sum(num-1)
+}
