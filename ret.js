@@ -14,5 +14,6 @@ function fakeBin(x){
   for (let i = 0; i < x.length; i++) {
     (x[i] < 5) ? el+=0 : el+=1
   }
+  
   return el
 }
