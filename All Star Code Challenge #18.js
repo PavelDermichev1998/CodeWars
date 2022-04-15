@@ -5,5 +5,6 @@ function strCount(str, letter){
       count++
     }
   }
+  
   return count
 }
