@@ -1,0 +1,7 @@
+function findUniq(arr) {
+    let mid = arr.sort((a,b) => b - a)[Math.floor(arr.length/2)]
+    if(mid === arr[0]) {
+        return arr[arr.length -1]
+    }
+    return arr[0]
+}
