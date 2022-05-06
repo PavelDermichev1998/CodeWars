@@ -1,0 +1,13 @@
+const qq = () => {
+    const a = {
+        a: 5
+    };
+    a.valueOf = function () {
+        return this.a++
+    }
+//@ts-ignore
+    if (a == 5 && a == 6 && a == 7) {
+        console.log('It works')
+    }
+}
+console.log(qq())
