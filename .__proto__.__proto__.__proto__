@@ -1,0 +1,5 @@
+let sum = new Object('12')
+    console.log(sum.__proto__ === String.prototype)
+    console.log(sum.__proto__.__proto__ === Object.prototype)
+    console.log(sum.constructor.__proto__ === Function.prototype)
+    console.log(sum.__proto__.__proto__.__proto__ === null)
