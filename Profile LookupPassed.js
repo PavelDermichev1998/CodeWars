@@ -25,7 +25,6 @@ var contacts = [
         "likes": ["JavaScript", "Gaming", "Foxes"]
     }
 ];
-
 function lookUpProfile(name, prop) {
   // Only change code below this line
  for (let i = 0; i < contacts.length; i++) {
